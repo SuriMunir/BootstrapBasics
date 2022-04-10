@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <h1>Hello People</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 alert alert-primary">I am occupying 8 columns</div>
+        <div class="col-4 alert alert-secondary">I am occupying 4 columns</div>
+      </div>
+      <div class="row">
+        <div class="col-4 alert alert-success">I am occupying 4 cols</div>
+        <div class="col-4 alert alert-info">I am occupying 4 cols</div>
+        <div class="col-2 alert alert-danger">I am occupying 2 cols</div>
+        <div class="col-2 alert alert-primary">I am occupying 2 cols</div>
+      </div>
+      <div class="row">
+        <div class="col-4 col-sm-4 alert alert-primary">Hello there</div>
+        <div class="col-4 col-md-6 alert alert-danger">
+          I am occupying 4 columns and I am available in different size on
+          medium devices
+        </div>
+        <div class="col-4 col-xl-2 alert alert-danger">
+          I am occupying 4 columns and I am available in different size on large
+          devices
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 col-md-6 col-sm-4 alert alert-success">
+          I am occupying 12 cols and I am different size on small, medium and
+          large devices
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-xl-10 col-md-6 col-sm-4 alert alert-success">
+          I am occupying 12 cols and I am different size on small, medium and
+          large devices
+        </div>
+        <div class="col-12 col-xl-10 col-md-6 col-sm-4 alert alert-danger">
+          I am occupying 12 cols and I am different size on small, medium and
+          large devices
+        </div>
+        <div class="col-12 col-xl-10 col-md-6 col-sm-4 alert alert-info">
+          I am occupying 12 cols and I am different size on small, medium and
+          large devices
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron bg-primary mt-5">
+      <form action="" class="bg-light rounded p-5">
+        <div class="form-group">
+          <label for="">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Name"
+            id="name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">E Mail</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Enter email"
+            id="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Enter password"
+            id="password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select name="" id="" class="form-control">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="gender">File Input</label>
+          <input type="file" class="form-control" />
+        </div>
+        <button class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
